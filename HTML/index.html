@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <title>Projeto em PyScript</title>
+    <title>Teste</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .div1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+
+        }
+        .div2{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            height: 500px;
+            width: 500px;
+            background-color: blueviolet;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 60px;
+
+        }
+        p{
+            margin: 50px;
+        }
+    </style>
 </head>
 <body>
-    <py-script>
-        print("Hello World!")
-    </py-script>
+    <div class="div1">
+        <div class="div2">
+            <p>Teste</p>
+        </div>
+    </div>
 </body>
 </html>

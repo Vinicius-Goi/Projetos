@@ -5,8 +5,8 @@ function enviarFormulario(){
     var senha = document.getElementById('senha').value;
 
     if (nome == nome_registrado && senha == senha_registrada){
-        var label = document.getElementById('parabens').style;
-        label = label.style("visibility: visible;")
+        var label = document.getElementById('parabens');
+        label = label.style.visibility = 'visible';
     }
     document.getElementById('form').reset();
 }

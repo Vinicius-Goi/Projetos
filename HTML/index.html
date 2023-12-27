@@ -3,45 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .div1{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            width: 100vw;
-            background-color: aqua;
-
-        }
-        .div2{
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: center;
-            height: 500px;
-            width: 500px;
-            background-color: blueviolet;
-            font-family: monospace;
-            font-weight: bold;
-            font-size: 60px;
-
-        }
-        p{
-            margin: 50px;
-        }
-    </style>
+    <title>Form</title>
+    
 </head>
 <body>
-    <div class="div1">
-        <div class="div2">
-            <p>Teste</p>
-        </div>
-    </div>
+    <form action="?" method="POST">
+        <input type="text" id="nome" name="nome" required autocomplete="off">
+        <input type="password" id="senha" required>
+        <button type="button" onclick="enviarFormulario()">Enviar</button>
+        <!-- <input type="number" id="numero" step="any"> -->
+        <!-- <input type="date"> -->
+    </form>
 </body>
+<script src="./script.js"></script>
 </html>
